@@ -1,0 +1,38 @@
+form p{
+font-size: large;
+text-align: center;
+}
+form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    
+}
+
+.Login-options button{
+    display: flex;
+    align-items: center;
+     width:100%;
+     justify-content: center;
+     gap:20px;
+     border-radius: 10px;
+     background-color: rgba(43, 100, 206, 0.733);
+padding:8px 0;
+margin: 12px 0;
+font-weight:600;
+color: white;
+font-size: large;
+}
+form input{
+   padding:15px 3px;
+margin:10px 0 0 0;
+border-radius: 10px;
+
+}
+form input:focus{
+    outline: none;
+}
+form input::placeholder{
+    padding-left: 10px;
+    font-weight: 600;
+    color: rgba(155, 151, 151, 0.753)
+ }
