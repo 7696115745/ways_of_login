@@ -47,8 +47,8 @@ e.preventDefault()
         };
         const Instagramlogin = () => {
             const clientID =`${process.env.NEXT_PUBLIC_INSTAGRAM_ID}`
-             const redirectURI = 'http://localhost:3000';
-            route.push(`https://api.instagram.com/oauth/authorize?client_id=${clientID}&redirect_uri=${redirectURI}&scope=user_profile,user_media&response_type=code`);
+             const redirectURI = 'http://localhost:3000/about';
+            route.push(`https://api.instagram.com/oauth2/authorize?client_id=${clientID}&redirect_uri=${redirectURI}&scope=user_profile,user_media&response_type=token`);
         };
 
   return (
